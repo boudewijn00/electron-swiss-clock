@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+  </head>
+  <body>
+    <p>City: <span id="city"></span></p>
+    <p>Time: <span id="time"></span></p>
+    <p>Temperature: <span id="temperature"></span></p>
+    <p>Humidity: <span id="humidity"></span></p>
+    <p>Wind: <span id="wind"></span></p>
+    <script src="renderer.js"></script>
+</body>
+</html>
